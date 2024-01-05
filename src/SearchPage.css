@@ -1,0 +1,97 @@
+.searchPage_info {
+  padding: 20px;
+}
+
+.searchPage_info  p {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.searchPage_info  h1 {
+  margin-bottom: 30px;
+}
+
+.searchPage_info  button {
+  border-radius: 30px;
+  text-transform: inherit;
+  margin: 5px;
+}
+
+
+
+
+.searchResult {
+  display: flex;
+  position: relative;
+  margin: 20px;
+  padding: 35px;
+  border-bottom: 1px solid lightgray;
+  cursor: pointer;
+}
+
+
+
+.searchResult  img {
+  height: 200px;
+  width: 350px;
+  border-radius: 10px;
+  overflow: hidden;object-fit: cover;
+}
+.searchResult img:hover {
+  opacity: 0.8;
+}
+.searchResult__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 20px;
+}
+
+.searchResult__heart {
+  position: absolute;
+  top: 10px;
+  right: 30px;
+}
+.like_result{
+  color:red;
+}
+.searchResult__infoTop {
+  width: 40vw;
+}
+
+.searchResult__infoTop  h3 {
+  font-weight: 300;
+  margin-top: 10px;
+}
+
+.searchResult__infoTop  p {
+  margin-top: 10px;
+  font-size: 13px;
+  color: gray;
+}
+
+.searchResult__infoBottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.searchResult__star {
+  color: red;
+}
+
+
+.searchResult__stars {
+  display: flex;
+  align-items: center;
+}
+
+.searchResults__price  p {
+  text-align: right;
+}
+
+.searchResults__price {
+  position: absolute;
+  bottom: 5px;
+  right: 20px;
+}

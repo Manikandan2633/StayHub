@@ -1,0 +1,39 @@
+
+.search{
+  position: absolute;
+  top:35px;  
+}
+.search h3{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 83%;
+  max-width: 600px;
+  padding: 10px;
+  background-color: white;
+  position: absolute;
+  left: 0;
+}
+.search .people_cnt{
+  width: 80%;
+  max-width: 400px;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid lightgray;
+  border-radius: 20px;
+}
+.search .btn{
+  background-color: #ff7779;
+  top:100px;
+  width: 90%;
+  margin-left: 20px;
+  color: white;
+  text-transform: capitalize;
+  font-weight: 900;
+}
+
+.search .btn:hover{
+  background-color: white;
+  color: #ff7779;
+}
+
